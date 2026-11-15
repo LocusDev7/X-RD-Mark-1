@@ -47,11 +47,14 @@ While I understand that a project like this could be designed using an Arduino a
 
 The next step in the project is to actually connect the ESP32-S3 to the other peripherals. The KiCad library already has a premade symbol for the ESP32-S3 module so that takes away the external time that could have been used to make the symbol.
 
-<img width="583" height="622" alt="image" src="https://github.com/user-attachments/assets/5344fdd3-d422-409b-bc70-d8de6383a21f" />
+## ESD Protection
 This specific ESD Protection component is known for being highly reliable and maintains the USB data signal line with low capacitance.
+
+<img width="669" height="645" alt="image" src="https://github.com/user-attachments/assets/0ca888e8-8e67-4533-b233-fa25d573d059" /><br>
+Datasheet: https://www.st.com/resource/en/datasheet/usblc6-2.pdf
+
 <br><br>
-USBLC6-2 Datasheet: https://www.st.com/resource/en/datasheet/usblc6-2.pdf
-<br><br>
+
 <img width="804" height="607" alt="image" src="https://github.com/user-attachments/assets/32af156f-6431-4f05-98a5-66e5428551f3" />
 
 I added an optional crystal oscillator in order to allow the ESP32-S3 to achieve precise timings. The documentation recommended a frequency of 32.768KHz.

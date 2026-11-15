@@ -48,3 +48,9 @@ USBLC6-2 Datasheet: https://www.st.com/resource/en/datasheet/usblc6-2.pdf
 I added an optional crystal oscillator in order to allow the ESP32-S3 to achieve precise timings. The documentation recommended a frequency of 32.768KHz.
 <br>
 **Total time spent: 45m**
+
+# November 14th: Update & Current Revisions
+
+<img width="827" height="678" alt="image" src="https://github.com/user-attachments/assets/84cf92dc-ca41-4430-b9a7-0da5c2c23899" />
+https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/wireless-connectivity/12935/3/AN1445.pdf
+

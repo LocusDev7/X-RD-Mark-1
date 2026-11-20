@@ -5,21 +5,19 @@ Description: A simple custom RF card scanner to check for access level.
 Created On: 8/4/2026
 ---
 
-# October 30th: Project Start
+# October 30th: Project Start!!
 
-I began the the project with the goal of creating a custom card scanner that could check if a student is present to class -- an attendance system. I needed a microcontroller that was strong enough to support WIFI, Memory, and Pin Configurations. And, the one that I landed with is the ESP32-S3. This microcontroller from Espressif is powerful. It includes:
+I began the the project with the goal of creating a custom card scanner that could check if a student is present to class -- AKA an attendance system. The first thing I really had to think about was the type of microcontroller I was going to use, one that is strong enough to support WIFI, Memory, and Pin Configurations. So, the one that I landed with is the ESP32-S3. While I know that this microcontroller is overused in many projects, I think it is relatively simple to understand without having to introduce any complexity, and the manufacturers provide a generously comprehensive datasheet.
 
-* 2.4 GHz WIFI
-* Bluetooth 5
-* And 45 GPIO Pins
+To think things through, I need to list what are of importance in this project. Specifically speaking, what goes into actually making these circuit boards work. I compiled a simple rundown of what needs to be added into the project to have a FUNCTIONAL microcontroller -- Just the microcontroller by the way! This does not include the other sensors and whatnot.
 
-## Required Peripherals
-This was enough to satisfy the requirements for the project. As, the original concept came from my coding teacher, where he wanted to make this attendance system a school wide thing. Yet, having to manually debug and update each system in the school would take an enormous amount of time, so the best way to do this was to use a WIFI compatible microcontroller -- where the ESP32-S3 comes in. The first thing I did was immediately began designing the schematic with the basic peripherals like: 
-
-1. USB-C
-2. Voltage Regulator
-3. Boot and Reset Buttons
-4. LED Indicators, etc
+* ESP32-S3 Microcontroller
+* USB-C Connector
+* Voltage Regulator
+* Crystal Oscillator (for precise timings)
+* Electrostatic Discharge Protection (ESD)
+* Boot and Reset Switches
+* And external pins for debugging
 
 ## Universal Serial Bus (USB)
 Added the USB-C with a Polyfuse (a fuse that prevents over-current to the microcontroller)
@@ -77,4 +75,6 @@ https://community.nxp.com/pwmxy87654/attachments/pwmxy87654/wireless-connectivit
 |---|---|
 
 **Total time spent: 5m**
+
+# November 20th: Locked in and got the RFID 
 

@@ -37,7 +37,7 @@ For the voltage regulator, I went with the AP2112K-3.3 because it is considered 
 
 <img width="696" height="584" alt="image" src="https://github.com/user-attachments/assets/58b1e425-5458-497e-b2ae-52832cebde3a" /><br>
 
-**Total time spent: 20m**
+**Total time spent: 30m**
 
 # November 15th: Added a Charging Circuit
 

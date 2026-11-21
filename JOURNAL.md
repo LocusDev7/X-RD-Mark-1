@@ -56,3 +56,15 @@ This part was recommended by Google because I didn't know what was recommended f
 
 Before going into the exciting progress made today, I have to be completely honest...I had to go back through the older entries to remove the overly "formal" tone -- they sounded more like a Read Me file than an actual journal.
 
+This RF stuff is starting to stress me out. I did not realize how difficult this truly would be. This is so much Math and even a small value change could mess up the whole thing. Jeez, I need to somehow figure out how to get the values. I downloaded a premade MFRC522 symbol from SnapEda, and it made things a little easier now that I have a component that is a little familiar because I have the physical model in my room.
+
+
+This is my current progress...
+<img width="647" height="728" alt="image" src="https://github.com/user-attachments/assets/7ad5c683-b41f-4361-8aaf-29d241ac53d8" />
+
+Update later on in the session. This is the result with the help of Google Gemini.
+Note: I manually put the parts together and did not have AI do it for me.
+<img width="611" height="719" alt="image" src="https://github.com/user-attachments/assets/869c39dc-9a56-416f-a018-d4d91f4c0a7c" />
+
+
+

@@ -7,7 +7,7 @@ Created On: 8/4/2026
 
 # October 30th: Project Start!!
 
-I began the the project with the goal of creating a custom card scanner that could check if a student is present to class -- AKA an attendance system. The first thing I really had to think about was the type of microcontroller I was going to use, one that is strong enough to support WIFI, Memory, and Pin Configurations. So, the one that I landed with is the ESP32-S3. While I know that this microcontroller is overused in many projects, I think it is relatively simple to understand without having to introduce any complexity, and the manufacturers provide a generously comprehensive datasheet.
+I began the project with the goal of creating a custom card scanner that could check if a student is present to class -- AKA an attendance system. The first thing I really had to think about was the type of microcontroller I was going to use, one that is strong enough to support WIFI, Memory, and Pin Configurations. So, the one that I landed with is the ESP32-S3. While I know that this microcontroller is overused in many projects, I think it is relatively simple to understand without having to introduce any complexity, and the manufacturers provide a generously comprehensive datasheet.
 
 To think things through, I need to list what are of importance in this project. Specifically speaking, what goes into actually making these circuit boards work. I compiled a simple rundown of what needs to be added into the project to have a FUNCTIONAL microcontroller -- Just the microcontroller by the way! This does not include the other sensors and whatnot.
 
@@ -33,7 +33,7 @@ The USB-C was straightforward, but I did include a small and easily unnoticed co
 <img width="622" height="622" alt="image" src="https://github.com/user-attachments/assets/282db22d-3c93-47cd-af8e-5837552c53a3" />
 
 ## Voltage Regulator
-For the voltage regulator, I went with the AP2112K-3.3 because it is considered the standard and recommended. But the other reason why it is used is because the ESP32-S3 can require 350-500mA using WIFI and Bluetooth, but this regular provides a stable 600mA current, well above the required threshold. Also, the IC is compact and small enough to not take up too much space.
+For the voltage regulator, I went with the AP2112K-3.3 because it is considered the standard and recommended. But the other reason why it is used is because the ESP32-S3 can require 350-500mA using WIFI and Bluetooth, but this regulator provides a stable 600mA current, well above the required threshold. Also, the IC is compact and small enough to not take up too much space.
 
 <img width="696" height="584" alt="image" src="https://github.com/user-attachments/assets/58b1e425-5458-497e-b2ae-52832cebde3a" /><br>
 

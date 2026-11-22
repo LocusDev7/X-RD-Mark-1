@@ -19,6 +19,13 @@ To think things through, I need to list what are of importance in this project. 
 * Boot and Reset Switches
 * And external pins for debugging
 
+The ESP32-S3-WROOM-1 <br>
+<img width="447" height="447" alt="image" src="https://github.com/user-attachments/assets/e3c7764b-cce8-4977-8ade-b726e783c7c6" />
+
+For the RFID module, I was thinking of using this model - the RC522.
+<img width="600" height="510" alt="image" src="https://github.com/user-attachments/assets/dc5e95bf-3e14-4655-a9e5-f7938d9c53a2" />
+
+
 I think that this is enough for the day. Tomorrow, I will begin working on the USB-C and Voltage Regulator! Two very important parts of the microcontroller.
 
 **Total time spent: 10m**
@@ -52,19 +59,18 @@ This part was recommended by Google because I didn't know what was recommended f
 
 **Total time spent: 30m**
 
-# November 20th: Locked in and got the RF Filter Laid Out!!!!
+# November 20th: Starting the RF layout...
+This radio frequency stuff is starting to stress me out. First, I did not realize how difficult this truly would be. And second, there is soooo much math involved to the point where it's not funny. Also, I just learned that a small inaccurate value could mess up the whole thing.
 
-Before going into the exciting progress made today, I have to be completely honest...I had to go back through the older entries to remove the overly "formal" tone -- they sounded more like a Read Me file than an actual journal.
+Okay, so, I downloaded a premade MFRC522 symbol from SnapEda, and it made things a little easier because I have a component that is a little familiar since I was going to use KiCad's one and only PN5120A0HN1, but its documentation was a bit difficult to understand.
 
-This RF stuff is starting to stress me out. I did not realize how difficult this truly would be. This is so much Math and even a small value change could mess up the whole thing. Jeez, I need to somehow figure out how to get the values. I downloaded a premade MFRC522 symbol from SnapEda, and it made things a little easier now that I have a component that is a little familiar because I have the physical model in my room.
+This is my current progress
 
-
-This is my current progress...
 <img width="647" height="728" alt="image" src="https://github.com/user-attachments/assets/7ad5c683-b41f-4361-8aaf-29d241ac53d8" />
 
 Update later on in the session. This is the result with the help of Google Gemini.
 Note: I manually put the parts together and did not have AI do it for me.
+
 <img width="611" height="719" alt="image" src="https://github.com/user-attachments/assets/869c39dc-9a56-416f-a018-d4d91f4c0a7c" />
 
-
-
+**Total time spend: 1h10m**

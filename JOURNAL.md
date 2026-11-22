@@ -73,4 +73,4 @@ Note: I manually put the parts together and did not have AI do it for me.
 
 <img width="611" height="719" alt="image" src="https://github.com/user-attachments/assets/869c39dc-9a56-416f-a018-d4d91f4c0a7c" />
 
-**Total time spend: 1h10min**
+**Total time spent: 1h10min**

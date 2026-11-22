@@ -74,3 +74,13 @@ Note: I manually put the parts together and did not have AI do it for me.
 <img width="611" height="719" alt="image" src="https://github.com/user-attachments/assets/869c39dc-9a56-416f-a018-d4d91f4c0a7c" />
 
 **Total time spent: 1h10min**
+
+# November 21st: RF Update!!!! & Extra Additions
+
+This is the BIGGEST breakthrough! Alright, I was using Gemini, and it recommended this website that could help me choose the specific values for the RF layout. All I need to do now is to come up with the dimensions for the PCB. Nothing to out of the ordinary, just something that is large enough to scan a card and also hold the important electronics on one side.
+
+Quality Factor Equation
+The desired Q value is to be 25 which is below the max value of 35.
+
+<img width="175" height="123" alt="image" src="https://github.com/user-attachments/assets/ee571c8a-0471-4a6b-a7f0-2025c65c0e7c" />
+
